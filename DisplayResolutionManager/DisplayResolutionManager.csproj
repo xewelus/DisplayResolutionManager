@@ -83,16 +83,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSCommon\CommonWinForms\CommonWinForms.csproj">
-      <Project>{4d3558c4-c9aa-4025-848e-68d14ff106a2}</Project>
-      <Name>CommonWinForms</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CSCommon\Common\Common.csproj">
-      <Project>{f611885d-38b2-4c9c-b736-08312c0f19dd}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Full Screen.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
