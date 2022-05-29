@@ -1,6 +1,5 @@
 using System;
 using System.Windows.Forms;
-using CommonWinForms;
 
 namespace DisplayResolutionManager
 {
@@ -12,9 +11,6 @@ namespace DisplayResolutionManager
 		[STAThread]
 		static void Main()
 		{
-			UIHelper.InRuntime = true;
-			UIHelper.SetUnhandledExceptionSafe();
-
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
